@@ -1,0 +1,29 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+        }
+        header, footer {
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+        }
+        nav a {
+            main-right: 10px;
+            color:#0000ee;
+            text-decoration: underline;
+        }
+        main{
+            padding: 20px;
+        }
+        h2{
+            margin-top: 0;
+        }
+        .note {
+            background-color: #e0e0e0;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    
