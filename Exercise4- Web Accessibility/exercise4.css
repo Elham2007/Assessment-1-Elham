@@ -1,0 +1,105 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #ff4db8;
+      font-family: Arial, sans-serif;
+      max-width: 420px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+
+    /* Decorative swirl header */
+    .swirl {
+      text-align: center;
+      padding: 10px 0 4px;
+      font-size: 40px;
+      color: #3a1a00;
+      letter-spacing: -2px;
+      line-height: 1;
+      /* Unicode swirl ornament */
+    }
+
+    .swirl svg {
+      width: 260px;
+      height: 50px;
+    }
+
+    /* Cart icon top right */
+    .cart-bar {
+      text-align: right;
+      padding: 4px 14px 4px;
+    }
+
+    .cart-bar span {
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    /* Each photo card */
+    .photo-card {
+      margin: 0 10px 4px;
+    }
+
+    .photo-card img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      height: 280px;
+    }
+
+    .photo-card .caption {
+      background-color: #ffffcc;
+      color: #00aaff;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 6px 8px 4px;
+      line-height: 1.4;
+    }
+
+    .photo-card .add-btn {
+      background-color: #e0e0e0;
+      border: 1px solid #aaa;
+      font-size: 11px;
+      padding: 2px 8px;
+      cursor: pointer;
+      margin: 2px 0 10px 0;
+      display: inline-block;
+      font-family: Arial, sans-serif;
+    }
+
+    .add-btn:hover {
+      background-color: #ccc;
+    }
+
+    /* Footer */
+    footer {
+      padding: 10px 10px 4px;
+      background-color: #ff4db8;
+    }
+
+    footer .copyright {
+      font-weight: bold;
+      font-size: 14px;
+      color: #000;
+      margin-bottom: 8px;
+    }
+
+    footer ul {
+      list-style: disc;
+      padding-left: 22px;
+    }
+
+    footer ul li {
+      margin-bottom: 2px;
+    }
+
+    footer ul li a {
+      color: #0000cc;
+      text-decoration: underline;
+      font-size: 14px;
+      font-weight: bold;
+    }
